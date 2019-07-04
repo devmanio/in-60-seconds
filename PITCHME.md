@@ -2,8 +2,7 @@
 
 ---
 
-## 
-components
+## components
 1. Blockchain contracts for channels;
 2. Backend orchestrator for route and matching users requests;
 3. Signer for sign users requests(auth, open/close orders);
