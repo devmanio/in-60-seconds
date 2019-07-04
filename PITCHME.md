@@ -14,7 +14,7 @@
 @title[Customize Slide Layout]
 
 @snap[west span-50]
-## Customize the Layout
+## history
 @snapend
 
 @snap[east span-50]
