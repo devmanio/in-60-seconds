@@ -34,6 +34,10 @@
 
 @snap[west span-55]
 @ul[spaced text-white]
+
+
+
+@size[small]
 - 1st version. Task: concept verification. July 2018.
 
 Channels - EOS and ETH.
@@ -55,6 +59,7 @@ Orchestrator - manage and update production implementation;
 - 4th version. Task: Increasing productivity, improving security, reducing the cost of ownership. Q4 2019 - Q1 2020
 Channels - replication for forks.
 Backend - All api must Rust implementation, on state-less function with zero-copy serialisation/deserialisation; Sequencer as separate component; Matching engine move to OS kernel ring, for maximize throughput with software implementation
+
 
 @ulend
 @snapend
