@@ -29,15 +29,33 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @title[Add A Little Imagination]
 
 @snap[north-west h4-white]
-#### And start presenting...
+
 @snapend
 
 @snap[west span-55]
 @ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
+- 1st version. Task: concept verification. July 2018.
+
+Channels - EOS and ETH.
+Backend - simple monolite node.js 
+Frontend - very simple, just for presentation.
+Signer - integrated in frontend.
+- 2nd version. Task: identify bottlenecks. November 2018
+Channels - EOS, ETH, NEO, QTUM.
+Backend - micro-service arch, still node.js implementation
+Frontend - usual trading interface, but single user mode only.
+Signer - chrome extension based.
+- 3rd version. Task: building production architecture. August 2019
+Channels - BTC(LN), LTC, OMNI, EOS, ETH, NEO, QTUM 
+Backend - advanced latency reduce and throughput maximize architecture, rust and golang implementation. Rust for security and latency focused API layer. Golang for order engine and latency agnostic api components.
+Frontend - PWA based trading interface, multi-user mode, keyless.id auth.
+Signer - security and UX focused pwa solution. webpayments api for simple UI, MPC for security; separation of the solution into an independent project.
+Orchestrator - manage and update production implementation; 
+
+- 4th version. Task: Increasing productivity, improving security, reducing the cost of ownership. Q4 2019 - Q1 2020
+Channels - replication for forks.
+Backend - All api must Rust implementation, on state-less function with zero-copy serialisation/deserialisation; Sequencer as separate component; Matching engine move to OS kernel ring, for maximize throughput with software implementation
+
 @ulend
 @snapend
 
